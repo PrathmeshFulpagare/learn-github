@@ -1,18 +1,109 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
 </head>
+
 <body>
-    <h1>My Portfolio</h1>
+    <div>
+        <h1>My Portfolio</h1>
 
-    <h2>About Me</h2>
-    <p>Hello, I am Prathmesh Fulpagare.</p>
 
-    <h2>My Education</h2>
-    <p>I am currently studying Information Technology at PICT Pune.</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <main>
+
+    <div>
+
+        
+        <h2 id="about">About Me</h2>
+
+        <br>
+
+        <img src="Profile.jpg" alt=" my profile photo" height="100">
+
+        <br>
+
+        <p>Hello, I am Prathmesh Fulpagare.</p>
+
+       
+
+    </div>
+    
+    <main>
+        
+    <div>
+
+        <h2>My Education</h2>
+        <p>I am currently studying Information Technology at PICT Pune.</p>
+
+        <h2 id="skills">My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>C</li>
+            <li>MySQL</li>
+
+        </ul>
+
+        <h2>My learning list</h2>
+
+        <ol>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Springboot</li>
+        </ol>
+
+    </div>
+
+    </main>
+
+
+    <div>
+        <h2 id="contact">Contact Me</h2>
+        
+
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="username">
+
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="xyz@gmail.com" required>
+            <br><br>
+
+            <label for="message">Your Message:</label>
+
+            <textarea id="message" name="message" rows="4" cols="30" placeholder="Write your message here"
+                required></textarea>
+
+
+
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <br>
+
+        <a href="https://github.com/PrathmeshFulpagare">GitHub</a>
+        <br>
+        <a href="mailto:undergradguatedengineer@gmail.com">Email Me</a>
+
+        
+
+
+    </div>
+
+
 </body>
+
 </html>
